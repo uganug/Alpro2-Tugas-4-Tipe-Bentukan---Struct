@@ -1,0 +1,22 @@
+//7. Buatlah program sederhana yang berisi penugasan struct
+
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main(){
+	struct kalender{
+		int year;
+		int month;
+		int date;
+	};
+	kalender var1;
+	var1.year = 2000; //penugasan variable struct diberi nilai
+	var1.month = 05;
+	var1.date = 12;
+	
+	cout<<var1.date<<"/"<<var1.month<<"/"<<var1.year;
+	
+	return 0;
+}
