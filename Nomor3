@@ -1,0 +1,15 @@
+//3. Buatlah program sederhana yang berisi variabel bertipe struct
+
+#include <iostream>
+using namespace std;
+
+int main(){
+	struct film{
+		char judul[30];
+		char genre[10];
+		int tahun[4];
+	}
+	info_film;
+	
+	return 0;
+}
