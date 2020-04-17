@@ -1,0 +1,18 @@
+//5. Buatlah program sederhana yang berisi deklarasi tipe struct di dalam struct	
+
+#include <iostream>
+using namespace std;
+
+int main(){
+	struct film{
+		char judul[30];
+		char genre[10];
+		int tahun;
+	};
+
+	struct actor{
+		char nama[30];
+		char from[30];
+		int umur;
+	};
+}
