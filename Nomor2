@@ -1,0 +1,12 @@
+//2. Buatlah program sederhana yang berisi deklarasi bertipe struct
+
+#include <iostream>
+using namespace std;
+
+int main(){
+	struct film{
+	}
+	info_film;
+	
+	return 0;
+}
